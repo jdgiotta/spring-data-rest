@@ -32,11 +32,11 @@ The previous example illustrates that `CrudRepository`, in fact, has four delete
 
 The following example shows Spring Security's older `@Secured` annotation, which is purely role-based:
 
-.spring-data-rest-tests-security/src/test/java/org/springframework/data/rest/tests/security/SecuredPersonRepository.java
+.spring-data-rest-tests/spring-data-rest-tests-security/src/test/java/org/springframework/data/rest/tests/security/SecuredPersonRepository.java
 ====
 [source,java]
 ----
-include::{spring-data-rest-root}/spring-data-rest-tests-security/src/test/java/org/springframework/data/rest/tests/security/SecuredPersonRepository.java[tag=code]
+include::{spring-data-rest-root}/spring-data-rest-tests/spring-data-rest-tests-security/src/test/java/org/springframework/data/rest/tests/security/SecuredPersonRepository.java[tag=code]
 ----
 ====
 
